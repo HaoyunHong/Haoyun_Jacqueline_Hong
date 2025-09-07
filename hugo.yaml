@@ -60,7 +60,10 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Haoyun (Jacqueline) Hong
-    subtitle: "NYU Stern IS PhD student"
+    subtitle: |
+      🇺🇸 NYU Stern IS PhD student\
+      🇨🇳 THU CS Bachelor's & Stat minor\
+      👸🏻 Two Champions of Miss World China
     imageUrl: "https://0.gravatar.com/avatar/2933508dc931fa019283ac0436b5c5b11bb1aa33995ac1186589bf85e4765eb4?size=256&d=initials"
     imageWidth: 120
     imageHeight: 120
