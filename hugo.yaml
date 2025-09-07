@@ -23,10 +23,8 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
-  math:
-    enable: true
-    mathjax: false
-    katex: true
+
+  enableLatex: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -62,18 +60,18 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Haoyun (Jacqueline) Hong
-    subtitle: "AI + Business"
+    subtitle: "NYU Stern IS PhD student"
     imageUrl: "https://0.gravatar.com/avatar/2933508dc931fa019283ac0436b5c5b11bb1aa33995ac1186589bf85e4765eb4?size=256&d=initials"
     imageWidth: 120
     imageHeight: 120
     imageTitle: headshot
     buttons:
-      - name: Archive
-        url: "content/archive.md"
-      - name: Github
-        url: "https://github.com/HaoyunHong"
-      - name: Posts
+      - name: Blogs
         url: posts
+      - name: Papers
+        url: https://scholar.google.com/citations?user=9DIvncMAAAAJ&hl=en
+      - name: CV
+        url: https://drive.google.com/file/d/1jqohNVcPnI2_xm3i-wvgDt1Q1kV8gsGa/view?usp=drive_link
       - name: Tags
         url: tags
 
@@ -83,12 +81,12 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/haoyun-hong-641059260/"
     - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
+      url: "https://x.com/HaoyunHong_thu"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/HaoyunHong"
 
   analytics:
     google:
