@@ -3,7 +3,7 @@ title: "Be Confident in Learning Calculus"
 date: 2025-09-07
 # weight: 1
 # aliases: ["/first"]
-tags: ["Calculus", "Math"]
+tags: ["Calculus"]
 author: "Haoyun (Jacqueline) Hong"
 math: true
 showToc: true

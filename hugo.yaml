@@ -74,9 +74,9 @@ params:
       - name: Papers
         url: https://scholar.google.com/citations?user=9DIvncMAAAAJ&hl=en
       - name: CV
-        url: https://drive.google.com/file/d/1jqohNVcPnI2_xm3i-wvgDt1Q1kV8gsGa/view?usp=drive_link
-      - name: Tags
-        url: tags
+        url: https://drive.google.com/file/d/1RqAC3m9oVO8U3m2RRRUb46lFGToMs7VS/view?usp=drive_link
+      # - name: Tags
+      #   url: tags
 
   # home-info mode
   homeInfoParams:
@@ -84,6 +84,8 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
+    - name: email
+      url: mailto:hh3863@stern.nyu.edu
     - name: linkedin
       url: "https://www.linkedin.com/in/haoyun-hong-641059260/"
     - name: x
@@ -122,10 +124,10 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
     - identifier: tags
       name: tags
       url: /tags/
