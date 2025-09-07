@@ -17,12 +17,16 @@ params:
   title: ExampleSite
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Haoyun Hong
   # author: ["Me", "You"] # multiple authors
   images: ["haoyunhong.link"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  math:
+    enable: true
+    mathjax: false
+    katex: true
 
   ShowReadingTime: true
   ShowShareButtons: true
@@ -135,6 +139,9 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+  goldmark:
+    renderer:
+      unsafe: true
 
 outputs:
   home:
