@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://localhost:1313/Haoyun_Jacqueline_Hong/sitemap.xml

@@ -1,4 +1,4 @@
-baseURL: https://example.org/
+baseURL: "https://haoyunhong.github.io/Haoyun_Jacqueline_Hong/"
 languageCode: en-us
 title: Haoyun's Blog
 theme: ["PaperMod"]
