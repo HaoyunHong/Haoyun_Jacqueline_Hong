@@ -20,12 +20,5 @@
       <guid>https://example.org/tags/calculus/</guid>
       <description></description>
     </item>
-    <item>
-      <title>Math</title>
-      <link>https://example.org/tags/math/</link>
-      <pubDate>Sun, 07 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.org/tags/math/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
