@@ -74,7 +74,7 @@ params:
       - name: Papers
         url: https://scholar.google.com/citations?user=9DIvncMAAAAJ&hl=en
       - name: CV
-        url: static/Haoyun_Jacqueline_Hong_CV.pdf
+        url: /Haoyun_Jacqueline_Hong_CV.pdf
       # - name: Tags
       #   url: tags
 
