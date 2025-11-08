@@ -1,8 +1,6 @@
 ---
 title: "Be Confident in Learning Calculus"
 date: 2025-09-07
-# weight: 1
-# aliases: ["/first"]
 tags: ["Calculus"]
 author: "Haoyun (Jacqueline) Hong"
 math: true
@@ -15,7 +13,6 @@ description: "If I can make it, then you can make it : )"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowReadingTime: true
@@ -25,15 +22,15 @@ ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 cover:
-    image: "<https://www.3blue1brown.com/content/lessons/2017/essence-of-calculus/figure-4.14-4.57.svg>" # image path/url
-    alt: "<alt text>" # alt text
-    caption: "<text>" # display caption under cover
-    relative: true # when using page bundles set this to true
-    hidden: false # only hide on current single page
+  image: "https://www.3blue1brown.com/content/lessons/2017/essence-of-calculus/figure-4.14-4.57.svg"
+  alt: "Graphical illustration from 3Blue1Brown's Essence of Calculus"
+  caption: "Understanding Calculus visually"
+  relative: true
+  hidden: false
 editPost:
-    URL: "https://github.com/HaoyunHong/Haoyun_Jacqueline_Hong/tree/main/content"
-    Text: "Suggestion" # edit text
-    appendFilePath: true # to append file path to Edit link
+  URL: "https://github.com/HaoyunHong/Haoyun_Jacqueline_Hong/tree/main/content"
+  Text: "Suggestion"
+  appendFilePath: true
 ---
 
 ---
