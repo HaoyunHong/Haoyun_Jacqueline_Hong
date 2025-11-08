@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://haoyunhong.github.io/Haoyun_Jacqueline_Hong/sitemap.xml
