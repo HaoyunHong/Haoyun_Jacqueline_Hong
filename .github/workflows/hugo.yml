@@ -3,8 +3,8 @@ name: Deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main     # ← 如果你的主分支叫 master，就改成 master
-  workflow_dispatch:  # 允许你手动在 Actions 页面点运行
+      - main   # 如果你的主分支不是 main，请改为实际分支名
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -26,6 +26,10 @@ jobs:
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
+          extended: true
+
+      - name: Initialize themes
+        run: git submodule update --init --recursive
 
       - name: Build with Hugo
         run: hugo --minify
